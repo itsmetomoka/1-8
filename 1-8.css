@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+	color: #6c6b6b;
+}
+
+.list{
+	width: 960px;
+	margin: 50px auto;
+}
+
+.list p{
+	width: 960px;
+	padding: 20px;
+}
+
+.list p:nth-child(odd){
+	background-color: #acabab
+}
+.boxes{
+	width: 960px;
+	margin: 50px auto;
+
+}
+
+.box{
+	display: inline-block;
+	float: left;
+	width: 30%;
+	height: 200px;
+	margin-bottom: 40px;
+	margin-right: 5%;
+	background-color: yellow;
+
+}
+
+.box:first-child,
+.box:nth-child(5),
+.box:last-child{
+	background-color: orange;
+}
+
+.box:nth-child(3n){
+	margin-right: 0;
+}
+.box:nth-child(7),
+.box:nth-child(8),
+.box:last-child{
+	margin-bottom: 0;
+}
